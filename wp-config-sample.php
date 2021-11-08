@@ -67,6 +67,8 @@ define( 'NONCE_SALT',       'put your unique phrase here' );
  */
 $table_prefix = 'wp_';
 
+@ini_set('upload_max_size' , '256M' );
+
 /**
  * For developers: WordPress debugging mode.
  *
